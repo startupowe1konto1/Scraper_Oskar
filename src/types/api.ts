@@ -188,6 +188,7 @@ export interface Offer {
     sponsored: boolean;
     firma: boolean;
     official_store: boolean;
+    super_price?: boolean;
   };
   title: string;
   offer_url?: string;

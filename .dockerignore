@@ -1,0 +1,13 @@
+node_modules
+.next
+.git
+.firecrawl
+docs
+*.md
+README.md
+e2e-jwt.txt
+tsconfig.tsbuildinfo
+.env*
+supabase
+scripts
+*.bat

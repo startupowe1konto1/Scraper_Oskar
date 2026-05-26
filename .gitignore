@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+.pnp/
+
+# Build output
+.next/
+out/
+dist/
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# Runtime
+*.log
+logs/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+.tmp/
+tmp/
+
+# Test artifacts
+coverage/
+.nyc_output/
+
+# Worker state (if we cache anything locally)
+.worker-state/
+.superpowers/
+
+# Firecrawl scrape cache (local debugging only)
+.firecrawl/
+
+# TS build info
+tsconfig.tsbuildinfo
+
+# Local secrets / scratch
+e2e-jwt.txt
+
+# Local dev helper scripts (contain hardcoded service-role keys)
+run-dev.bat
+run-worker.bat
+*.local.bat

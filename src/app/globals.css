@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: 207 58% 28%;
+    --primary-foreground: 0 0% 100%;
+    --primary-soft: 207 58% 96%;
+
+    --accent-brand: 25 80% 56%;
+    --accent-brand-foreground: 0 0% 100%;
+
+    --success: 153 65% 39%;
+    --success-foreground: 0 0% 100%;
+    --success-soft: 153 65% 96%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 30 60% 18%;
+    --warning-soft: 38 92% 96%;
+
+    --danger: 0 70% 52%;
+    --danger-foreground: 0 0% 100%;
+    --danger-soft: 0 70% 97%;
+
+    --brand-navy: 207 64% 18%;
+
+    --background: 40 28% 98%;
+    --foreground: 207 64% 14%;
+
+    --surface: 0 0% 100%;
+    --surface-muted: 40 18% 96%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 207 64% 14%;
+
+    --secondary: 40 18% 95%;
+    --secondary-foreground: 207 64% 14%;
+
+    --muted: 40 14% 94%;
+    --muted-foreground: 207 14% 42%;
+
+    --accent: 207 58% 96%;
+    --accent-foreground: 207 58% 28%;
+
+    --destructive: 0 70% 52%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 40 14% 88%;
+    --input: 40 14% 92%;
+    --ring: 207 58% 28%;
+
+    --radius: 0.625rem;
+
+    --shadow-soft: 0 1px 2px hsl(207 64% 14% / 0.04), 0 4px 12px -4px hsl(207 64% 14% / 0.06);
+    --shadow-medium: 0 4px 16px -4px hsl(207 64% 14% / 0.08), 0 12px 32px -8px hsl(207 64% 14% / 0.10);
+
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(40 18% 98%));
+    --gradient-primary: linear-gradient(135deg, hsl(207 58% 32%), hsl(207 64% 18%));
+    --gradient-amber: linear-gradient(135deg, hsl(25 80% 56%), hsl(20 80% 48%));
+    --gradient-hero: linear-gradient(180deg, hsl(40 28% 98%) 0%, hsl(40 28% 98%) 60%, hsl(207 58% 96%) 100%);
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    -webkit-font-smoothing: antialiased;
+  }
+}

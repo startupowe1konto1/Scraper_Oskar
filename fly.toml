@@ -1,0 +1,24 @@
+app = "shoppalyzer-worker"
+primary_region = "waw"
+
+[build]
+
+[env]
+  NODE_ENV = "production"
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 256
+
+# No [http_service] block — this is a worker, no inbound HTTP
+
+[processes]
+  worker = "npx tsx src/workers/scrape-worker.ts"
+
+[deploy]
+  strategy = "rolling"
+
+[[restart]]
+  policy = "on-failure"
+  retries = 10

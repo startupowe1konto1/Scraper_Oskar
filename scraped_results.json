@@ -1,0 +1,2440 @@
+[
+  {
+    "mainOffer": {
+      "url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18424765068",
+      "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+      "price": 649,
+      "condition": "Nowy",
+      "stock": 4,
+      "sold_recent": 182,
+      "seller": "ELECTROpl",
+      "smart": true,
+      "delivery": "dostawa w poniedziałek",
+      "reviews": 1097,
+      "rating": 4.83,
+      "mainCategory": "Elektronika",
+      "subCategory": "RTV i AGD"
+    },
+    "competitiveOffers": [
+      {
+        "id": "34ffe0a6-6a39-4c5b-8b96-e8976883ca3a",
+        "offer_id": "18596810752",
+        "seller": "seeyougame",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18596810752",
+        "price": 649,
+        "recommend_pct": 96.5,
+        "reviews": 369,
+        "sold_recent": 1,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": true,
+          "contains_promo": true,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "456f272c-cf24-45f8-90b3-bdb06ec65277",
+        "offer_id": "17758803293",
+        "seller": "GoldGame2",
+        "title": "Apple Słuchawki AirPods Pro (2. generacji) z etui ładującym MagSafe (USB-C)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17758803293",
+        "price": 918.9,
+        "recommend_pct": 97.3,
+        "reviews": 9430,
+        "sold_recent": 5,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "6da27968-eefd-4936-bec2-eb84b39def2c",
+        "offer_id": "17882946399",
+        "seller": "abfotopl",
+        "title": "Słuchawki Apple AirPods Pro 2. generacji, etui MagSafe z USB-C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17882946399",
+        "price": 918.6,
+        "recommend_pct": 96.2,
+        "reviews": 2465,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "4d5148fa-b4c6-40f1-83b0-9b71e436e810",
+        "offer_id": "17916949320",
+        "seller": "abfotopl",
+        "title": "Słuchawki Apple AirPods Pro 2. generacji, etui MagSafe z USB-C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17916949320",
+        "price": 926.09,
+        "recommend_pct": 96.2,
+        "reviews": 2465,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "40640dba-2ba8-4df7-a6df-c0be5167df1e",
+        "offer_id": "17677360814",
+        "seller": "quikset",
+        "title": "Apple Słuchawki AirPods Pro (2. generacji) z etui MagSafe (USB-C)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17677360814",
+        "price": 929,
+        "recommend_pct": 87.9,
+        "reviews": 124,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "3e844178-af41-4fc7-9985-a0823aa27468",
+        "offer_id": "18587127302",
+        "seller": "unknown",
+        "title": "AirPods Pro (2. generacji) z etui MagSafe (USB-C) MTJV3ZM/A",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18587127302",
+        "price": 1009.36,
+        "recommend_pct": 97.6,
+        "reviews": 812,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "8d6dbe41-4367-4f34-9ed7-f4fa560f9ce6",
+        "offer_id": "17706749536",
+        "seller": "KRYSOLD",
+        "title": "SŁUCHAWKI AIRPODS PRO 2 APPLE ORYGINALNE BEZPRZEWODOWE DOUSZNE BLUETOOTH",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17706749536",
+        "price": 1049,
+        "recommend_pct": 98.7,
+        "reviews": 1127,
+        "sold_recent": 1,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "0008b760-7e47-462a-88af-09a3bfedc171",
+        "offer_id": "16893889737",
+        "seller": "Careta21",
+        "title": "Apple AirPods Pro USB-C (2. generacja)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=16893889737",
+        "price": 1099,
+        "recommend_pct": 99.7,
+        "reviews": 2174,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "f1fe43ff-e79d-4d96-b08f-19b338ac06a6",
+        "offer_id": "18035235891",
+        "seller": "DecoVibe",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2 Z ETUI ŁADUJĄCYM MAGSAFE (USB-C) BIAŁE",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18035235891",
+        "price": 1149.9,
+        "recommend_pct": 97.6,
+        "reviews": 83,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "370dd724-e7f0-47cb-9a56-a7f3e0b020d0",
+        "offer_id": "18410497778",
+        "seller": "Stockly",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18410497778",
+        "price": 1082.99,
+        "recommend_pct": 97,
+        "reviews": 32,
+        "sold_recent": 0,
+        "badges": {
+          "smart": false,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "b873f868-ccfe-4918-9c3d-7d68082d8e02",
+        "offer_id": "17849893966",
+        "seller": "StrefaZaufania",
+        "title": "SŁUCHAWKI BEZPRZEWODOWE APPLE AIRPODS PRO II USB-C DOKANAŁOWE BLUETOOTH",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17849893966",
+        "price": 1319,
+        "recommend_pct": 100,
+        "reviews": 53,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": true,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "e158b8f8-ae45-4d32-9bd3-03fee8423d96",
+        "offer_id": "17849896273",
+        "seller": "StrefaZaufania",
+        "title": "SŁUCHAWKI BEZPRZEWODOWE APPLE AIRPODS PRO II USB-C DOKANAŁOWE BLUETOOTH",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17849896273",
+        "price": 1319,
+        "recommend_pct": 100,
+        "reviews": 53,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": true,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "7305b19e-106d-4ad4-b0d9-0883ff93b39d",
+        "offer_id": "17942706296",
+        "seller": "unknown",
+        "title": "Słuchawki bezprzewodowe Apple AirPods Pro 2 gen MagSafe USB-C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17942706296",
+        "price": 1199,
+        "recommend_pct": 98.2,
+        "reviews": 496,
+        "sold_recent": 1,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "6cb7828d-d5c2-448a-98e7-aa44132df23c",
+        "offer_id": "17106210889",
+        "seller": "kubartech_pl",
+        "title": "Słuchawki bezprzewodowe z mikrofonem APPLE AirPods Pro 2. generacja",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17106210889",
+        "price": 1293.92,
+        "recommend_pct": 98.5,
+        "reviews": 1002,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "c75a9490-51ae-4dd2-8e79-5d6575347425",
+        "offer_id": "17835155584",
+        "seller": "Land24Sklep",
+        "title": "SŁUCHAWKI bezprzewodowe APPLE AirPods Pro 2 generacji wygodne bluetooth",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17835155584",
+        "price": 1449.9,
+        "recommend_pct": 97,
+        "reviews": 194,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": true,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "3a05df18-3054-428d-9646-e8a892916818",
+        "offer_id": "18374937197",
+        "seller": "tamaryna_pl",
+        "title": "Apple AirPods Pro 2 Wireless Earbuds, Bluetooth Headphones, Active Noise",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18374937197",
+        "price": 1634.99,
+        "recommend_pct": 96.4,
+        "reviews": 464,
+        "sold_recent": 0,
+        "badges": {
+          "smart": false,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "b5c11652-5376-4b58-a57b-d5b0f59efde3",
+        "offer_id": "17968315750",
+        "seller": "buy-it_pl",
+        "title": "Apple AirPods Pro 2 gen MagSafe USB-C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17968315750",
+        "price": 1046.28,
+        "recommend_pct": 95.4,
+        "reviews": 480,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "1e884b24-613b-4d30-baaf-e24163fb2f5e",
+        "offer_id": "17939411070",
+        "seller": "unknown",
+        "title": "Słuchawki bezprzewodowe Apple AirPods Pro 2 gen MagSafe USB-C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17939411070",
+        "price": 1199,
+        "recommend_pct": 94.9,
+        "reviews": 74,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": false,
+          "official_store": false
+        }
+      },
+      {
+        "id": "144ca68f-11d6-456b-8660-d0f05cd49ceb",
+        "offer_id": "18201652553",
+        "seller": "gosolo_pl",
+        "title": "ORYGINALNA PRAWA SŁUCHAWKA AIRPODS PRO 2 GENERACJI USCB C A3047 GRADE C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18201652553",
+        "price": 169,
+        "recommend_pct": 97.4,
+        "reviews": 37,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "b1252842-00c7-45cf-91ff-e3bca4b7f43f",
+        "offer_id": "18357414213",
+        "seller": "gosolo_pl",
+        "title": "1/ ORYGINALNA PRAWA SŁUCHAWKA AIRPODS PRO 2 GENERACJI USCB C A3047 GRADE C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18357414213",
+        "price": 169,
+        "recommend_pct": 97.4,
+        "reviews": 37,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "c592e3b7-a93d-46ee-a414-ffbb3c9e560e",
+        "offer_id": "18357417918",
+        "seller": "gosolo_pl",
+        "title": "2/ ORYGINALNA PRAWA SŁUCHAWKA AIRPODS PRO 2 GENERACJI USCB C A3047 GRADE C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18357417918",
+        "price": 169,
+        "recommend_pct": 97.4,
+        "reviews": 37,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "b04758ed-30a6-4cd0-9a0d-b0e54734853e",
+        "offer_id": "18605664995",
+        "seller": "unknown",
+        "title": "ORYGINALNE ETUI ŁADUJĄCE APPLE AIRPODS PRO 2 GENERACJI A2699 A2698 A2700",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18605664995",
+        "price": 259,
+        "recommend_pct": 95.3,
+        "reviews": 102,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "4cf99aca-2f8c-49d3-976f-214db113fda1",
+        "offer_id": "18548103645",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2 BW",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18548103645",
+        "price": 340,
+        "recommend_pct": 99.4,
+        "reviews": 328,
+        "sold_recent": 1,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "1fcb367d-5fe0-4c55-b36a-cfcbc945fda9",
+        "offer_id": "18542155757",
+        "seller": "mielec-AMGGold",
+        "title": "AirPods Pro 2 (USB-C)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18542155757",
+        "price": 349,
+        "recommend_pct": 93.5,
+        "reviews": 59,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "77e0efef-3092-470f-9945-6527669bbd87",
+        "offer_id": "18602298439",
+        "seller": "przybysza104",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18602298439",
+        "price": 350,
+        "recommend_pct": 95.5,
+        "reviews": 22,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "fd9f00ad-4f2d-4412-9a99-16967bbd9baa",
+        "offer_id": "17968593018",
+        "seller": "unknown",
+        "title": "etui ładujące z MagSafe - AirPods Pro (2. generacji) (USB-C)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17968593018",
+        "price": 359.2,
+        "recommend_pct": 94,
+        "reviews": 469,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "596e2c8f-15c7-4ca7-9aac-e3aec76be052",
+        "offer_id": "18593426895",
+        "seller": "mielec-AMGGold",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C GWAR.",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18593426895",
+        "price": 379,
+        "recommend_pct": 93.5,
+        "reviews": 59,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "d41cab3b-1791-4721-837f-3e573527a572",
+        "offer_id": "18364748328",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI DOKANAŁOWE APPLE AIRPODS PRO 2 ANC BIAŁY ORYGINAŁ USB-C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18364748328",
+        "price": 399,
+        "recommend_pct": 99.2,
+        "reviews": 383,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "4b5148eb-7a2e-44b9-bd15-a5336fde8740",
+        "offer_id": "18463824457",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI ŁADUJĄCE APPLE AIRPODS PRO (2 GENERACJA) ICLOUD",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18463824457",
+        "price": 399,
+        "recommend_pct": 98.4,
+        "reviews": 255,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "b2596797-8dab-4db8-80ac-7b856f392edc",
+        "offer_id": "17666741518",
+        "seller": "alleloombard487",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO A3048 7E93 GN1NX59F26JY POŁĄCZONE Z MAILEM",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17666741518",
+        "price": 400,
+        "recommend_pct": 93,
+        "reviews": 80,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "130dfdd2-daff-4bc1-b4ac-45e5ed1a9928",
+        "offer_id": "18599931520",
+        "seller": "AlmarOutlet",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18599931520",
+        "price": 429,
+        "recommend_pct": 98.1,
+        "reviews": 789,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "9ec198a2-f274-4a8c-9ba3-1a4a82c4e71c",
+        "offer_id": "18572451610",
+        "seller": "dealzone-mragowo",
+        "title": "Słuchawki Apple AirPods Pro 2 gen",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18572451610",
+        "price": 430,
+        "recommend_pct": 91.3,
+        "reviews": 21,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "c118530e-9641-4df2-a9a5-3fd0e6883c08",
+        "offer_id": "18592941185",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2 GEN.",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18592941185",
+        "price": 435.53,
+        "recommend_pct": 100,
+        "reviews": 158,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "c26ae530-5664-4a53-a802-815e7002a33a",
+        "offer_id": "18491563495",
+        "seller": "unknown",
+        "title": "APPLE AIRPODS PRO 2. GENERACJI (USB-C)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18491563495",
+        "price": 449,
+        "recommend_pct": 96.9,
+        "reviews": 126,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "b9606390-5331-4561-b086-9cdee04c01fe",
+        "offer_id": "18592972593",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2 GEN",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18592972593",
+        "price": 449,
+        "recommend_pct": 95,
+        "reviews": 491,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "30cdfeca-6d56-48fd-a78c-bab8c84609d9",
+        "offer_id": "18503333155",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI AIRPODS PRO 2 GEN + PUDEŁKO + DOWÓD ZAKUPU",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18503333155",
+        "price": 450,
+        "recommend_pct": 96.6,
+        "reviews": 406,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "6aabd665-46ff-4b02-8604-e540be7365ea",
+        "offer_id": "18466929734",
+        "seller": "alleloombard85",
+        "title": "SŁUCHAWKI BEZPRZEWODOWE APPLE AIRPODS PRO 2 ANC (ETUI Z USB-C)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18466929734",
+        "price": 449,
+        "recommend_pct": 100,
+        "reviews": 104,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "85d29faa-613b-4fc8-a754-5901c12dfbbe",
+        "offer_id": "18521046300",
+        "seller": "alleloombard538",
+        "title": "SŁUCHAWKI AIRPODS PRO 2GEN.",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18521046300",
+        "price": 439,
+        "recommend_pct": 95,
+        "reviews": 19,
+        "sold_recent": 0,
+        "badges": {
+          "smart": false,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "9c350c39-a819-4ecb-97e1-9eae8b0c7943",
+        "offer_id": "18570432712",
+        "seller": "AlmarOutlet",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18570432712",
+        "price": 469,
+        "recommend_pct": 98.1,
+        "reviews": 789,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "ed3a9189-3722-4d6a-bf9e-1824d61a0254",
+        "offer_id": "18478620969",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2ND SPRAWNE !!",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18478620969",
+        "price": 469,
+        "recommend_pct": 98.1,
+        "reviews": 428,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "80f2731b-cfbb-4c4a-aaa2-c5b9c8e9a1e1",
+        "offer_id": "18368101259",
+        "seller": "LOMBARDGM_BYTOW",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2 2GEN KOMPLET",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18368101259",
+        "price": 470,
+        "recommend_pct": 98,
+        "reviews": 148,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "fb23de2c-4a15-4a83-a5d3-7323df138ec8",
+        "offer_id": "18288080940",
+        "seller": "alleloombard35",
+        "title": "SŁUCHAWKI AIRPODS PRO 2 (USB-C)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18288080940",
+        "price": 479,
+        "recommend_pct": 95.1,
+        "reviews": 97,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "4619dc89-aea3-4d17-ae07-5aec1af66966",
+        "offer_id": "18342963311",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2 GEN",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18342963311",
+        "price": 499,
+        "recommend_pct": 98.3,
+        "reviews": 115,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "e7fddcce-af2f-40ad-abca-2c058bc747c9",
+        "offer_id": "18588473218",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2 GEN. MAGSAFE USB-C BT MTJV3ZM/A DOKANAŁOWE",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18588473218",
+        "price": 500,
+        "recommend_pct": 97.8,
+        "reviews": 484,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "f040ce4d-0007-4508-bd47-3a3347bbd42e",
+        "offer_id": "18454205631",
+        "seller": "alleloombard659",
+        "title": "SŁUCHAWKI BT APPLE AIRPODS PRO 2",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18454205631",
+        "price": 499,
+        "recommend_pct": 97.8,
+        "reviews": 45,
+        "sold_recent": 0,
+        "badges": {
+          "smart": false,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "1a3e0939-d919-4160-a3fd-469304029609",
+        "offer_id": "18442397780",
+        "seller": "AlmarOutlet",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18442397780",
+        "price": 529,
+        "recommend_pct": 98.1,
+        "reviews": 789,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "d22c46be-dc5f-40eb-8429-5569e84060e9",
+        "offer_id": "18603419716",
+        "seller": "alleloombard95",
+        "title": "SŁUCHAWKI BLUETOOTH AIRPODS PRO 2 GEN A3047",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18603419716",
+        "price": 525,
+        "recommend_pct": 93.5,
+        "reviews": 144,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "a654cc4a-c335-4255-af23-0ebde0cab6a7",
+        "offer_id": "18313377348",
+        "seller": "unknown",
+        "title": "17/452B Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokan",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18313377348",
+        "price": 549,
+        "recommend_pct": 99.6,
+        "reviews": 5539,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": true,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "b664c8f3-c63b-4e0e-8d22-7b8955176a4e",
+        "offer_id": "18313342576",
+        "seller": "unknown",
+        "title": "17/451B Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokan",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18313342576",
+        "price": 549,
+        "recommend_pct": 99.6,
+        "reviews": 5539,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": true,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "daeece8a-46f3-4d7e-b719-c19a4b11e21b",
+        "offer_id": "18142134380",
+        "seller": "alleloombard961",
+        "title": "SŁUCHAWKI AIRPODS 2 PRO KOMPLET",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18142134380",
+        "price": 550,
+        "recommend_pct": 98.7,
+        "reviews": 158,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "9da0db7c-ee71-49ca-811b-53ff1de52ff1",
+        "offer_id": "18238197342",
+        "seller": "alleloombard961",
+        "title": "SŁUCHAWKI AIRPODS PRO 2GEN KOMPLET",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18238197342",
+        "price": 550,
+        "recommend_pct": 98.7,
+        "reviews": 158,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "10610fa4-ec96-4ee2-8bd3-c2dd37b31e41",
+        "offer_id": "18570427869",
+        "seller": "AlmarOutlet",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18570427869",
+        "price": 559,
+        "recommend_pct": 98.1,
+        "reviews": 789,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "ed4def93-694a-4dbf-9453-6ca28639957f",
+        "offer_id": "18599938517",
+        "seller": "AlmarOutlet",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18599938517",
+        "price": 559,
+        "recommend_pct": 98.1,
+        "reviews": 789,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "5ca9bff2-dd27-4dc3-8bad-47aabac9e50d",
+        "offer_id": "18527857202",
+        "seller": "alleloombard416",
+        "title": "SŁUCHAWKI BEZPRZEWODOWE DOKANAŁOWE APPLE AIRPODS PRO 2 GEN",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18527857202",
+        "price": 575,
+        "recommend_pct": 91.5,
+        "reviews": 86,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "c8dd7d58-e470-4719-999d-a933f627f2b8",
+        "offer_id": "17568041141",
+        "seller": "unknown",
+        "title": "19558i Słuchawki bezprzewodowe dokanałowe Apple AirPods 2. generacji",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17568041141",
+        "price": 579,
+        "recommend_pct": 98.9,
+        "reviews": 874,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "bdee8a7c-ee0f-4a12-a8b6-eb5da42278c6",
+        "offer_id": "18601713660",
+        "seller": "unknown",
+        "title": "Słuchawki Apple AirPods Pro (2. generacji) z etui ładującym MagSafe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18601713660",
+        "price": 579,
+        "recommend_pct": 99.2,
+        "reviews": 129,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "1c8332d4-0d79-48a2-a7bb-d34f99c070e7",
+        "offer_id": "18572627831",
+        "seller": "unknown",
+        "title": "Słuchawki Apple AirPods Pro 2 bezprzewodowe aktywna redukcja hałasu",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18572627831",
+        "price": 580,
+        "recommend_pct": 100,
+        "reviews": 307,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": true,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "6accdf63-18c5-4ea6-b12d-3079cd406216",
+        "offer_id": "18521424708",
+        "seller": "unknown",
+        "title": "AIRPODS PRO 2GEN.",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18521424708",
+        "price": 580,
+        "recommend_pct": 97.2,
+        "reviews": 283,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "0eb049fb-b25c-49dc-aaa1-cfd02c4e0731",
+        "offer_id": "18285053109",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2. GEN USB-C MAGSAFE",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18285053109",
+        "price": 598,
+        "recommend_pct": 98.5,
+        "reviews": 260,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "4b7e54de-f97f-4ce2-a0a4-514921d57820",
+        "offer_id": "18503395796",
+        "seller": "e-kastel",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18503395796",
+        "price": 599,
+        "recommend_pct": 91.8,
+        "reviews": 181,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      }
+    ]
+  },
+  {
+    "mainOffer": {
+      "url": "https://allegro.pl/oferta/apple-airpods-pro-2nd-gen-magsafe-usb-c-bt-mtjv3zm-a-18568533669",
+      "title": "Apple AirPods Pro 2nd Gen MagSafe USB-C BT MTJV3ZM/A",
+      "price": 635,
+      "condition": "Nowy",
+      "stock": 7,
+      "sold_recent": 34,
+      "seller": "ELECTROpl",
+      "smart": true,
+      "delivery": "dostawa w poniedziałek",
+      "reviews": 1097,
+      "rating": 4.83,
+      "mainCategory": "Elektronika",
+      "subCategory": "RTV i AGD"
+    },
+    "competitiveOffers": [
+      {
+        "id": "854c6535-3b8d-48e2-acc6-4013f5232b11",
+        "offer_id": "18596810752",
+        "seller": "seeyougame",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18596810752",
+        "price": 649,
+        "recommend_pct": 96.5,
+        "reviews": 369,
+        "sold_recent": 1,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": true,
+          "contains_promo": true,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "62ce4db7-c17e-4e32-a2be-6ee96153005e",
+        "offer_id": "17758803293",
+        "seller": "GoldGame2",
+        "title": "Apple Słuchawki AirPods Pro (2. generacji) z etui ładującym MagSafe (USB-C)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17758803293",
+        "price": 918.9,
+        "recommend_pct": 97.3,
+        "reviews": 9430,
+        "sold_recent": 5,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "48b5e8be-9c46-41fd-8dcd-05e317639b4d",
+        "offer_id": "17882946399",
+        "seller": "abfotopl",
+        "title": "Słuchawki Apple AirPods Pro 2. generacji, etui MagSafe z USB-C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17882946399",
+        "price": 918.6,
+        "recommend_pct": 96.2,
+        "reviews": 2465,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "d06b8275-28c0-4f87-b585-cc6c58c39645",
+        "offer_id": "17916949320",
+        "seller": "abfotopl",
+        "title": "Słuchawki Apple AirPods Pro 2. generacji, etui MagSafe z USB-C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17916949320",
+        "price": 926.09,
+        "recommend_pct": 96.2,
+        "reviews": 2465,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "7b95e143-2884-4f73-972e-67dc0aeb0ec3",
+        "offer_id": "17677360814",
+        "seller": "quikset",
+        "title": "Apple Słuchawki AirPods Pro (2. generacji) z etui MagSafe (USB-C)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17677360814",
+        "price": 929,
+        "recommend_pct": 87.9,
+        "reviews": 124,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "adbdee54-9fbb-4ab1-a9b7-1b5b164d7dab",
+        "offer_id": "18587127302",
+        "seller": "unknown",
+        "title": "AirPods Pro (2. generacji) z etui MagSafe (USB-C) MTJV3ZM/A",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18587127302",
+        "price": 1009.36,
+        "recommend_pct": 97.6,
+        "reviews": 812,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "c36167e3-bccb-4b17-a0b9-0ef8d0462728",
+        "offer_id": "17706749536",
+        "seller": "KRYSOLD",
+        "title": "SŁUCHAWKI AIRPODS PRO 2 APPLE ORYGINALNE BEZPRZEWODOWE DOUSZNE BLUETOOTH",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17706749536",
+        "price": 1049,
+        "recommend_pct": 98.7,
+        "reviews": 1127,
+        "sold_recent": 1,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "bbf90deb-4881-4f04-b804-ae2631f83f58",
+        "offer_id": "16893889737",
+        "seller": "Careta21",
+        "title": "Apple AirPods Pro USB-C (2. generacja)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=16893889737",
+        "price": 1099,
+        "recommend_pct": 99.7,
+        "reviews": 2174,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "0a140319-30a6-4505-b0f0-15eea21c053f",
+        "offer_id": "18035235891",
+        "seller": "DecoVibe",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2 Z ETUI ŁADUJĄCYM MAGSAFE (USB-C) BIAŁE",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18035235891",
+        "price": 1149.9,
+        "recommend_pct": 97.6,
+        "reviews": 83,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "81aace66-6bed-4e07-a5e9-a5b4a6f55cff",
+        "offer_id": "18410497778",
+        "seller": "Stockly",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18410497778",
+        "price": 1082.99,
+        "recommend_pct": 97,
+        "reviews": 32,
+        "sold_recent": 0,
+        "badges": {
+          "smart": false,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "1a4709ee-875f-4f6c-a11a-ea7fa4f819af",
+        "offer_id": "17849893966",
+        "seller": "StrefaZaufania",
+        "title": "SŁUCHAWKI BEZPRZEWODOWE APPLE AIRPODS PRO II USB-C DOKANAŁOWE BLUETOOTH",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17849893966",
+        "price": 1319,
+        "recommend_pct": 100,
+        "reviews": 53,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": true,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "ce88602b-6f83-4205-86c2-044c4382f007",
+        "offer_id": "17849896273",
+        "seller": "StrefaZaufania",
+        "title": "SŁUCHAWKI BEZPRZEWODOWE APPLE AIRPODS PRO II USB-C DOKANAŁOWE BLUETOOTH",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17849896273",
+        "price": 1319,
+        "recommend_pct": 100,
+        "reviews": 53,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": true,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "2db3c80f-3adc-46c7-8796-d7218c85bab5",
+        "offer_id": "17942706296",
+        "seller": "unknown",
+        "title": "Słuchawki bezprzewodowe Apple AirPods Pro 2 gen MagSafe USB-C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17942706296",
+        "price": 1199,
+        "recommend_pct": 98.2,
+        "reviews": 496,
+        "sold_recent": 1,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "f16e31eb-f534-43d5-b3b2-b0fe5204e700",
+        "offer_id": "17106210889",
+        "seller": "kubartech_pl",
+        "title": "Słuchawki bezprzewodowe z mikrofonem APPLE AirPods Pro 2. generacja",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17106210889",
+        "price": 1293.92,
+        "recommend_pct": 98.5,
+        "reviews": 1002,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "5fb3618c-64ff-42c6-9a7a-4628444cf247",
+        "offer_id": "17835155584",
+        "seller": "Land24Sklep",
+        "title": "SŁUCHAWKI bezprzewodowe APPLE AirPods Pro 2 generacji wygodne bluetooth",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17835155584",
+        "price": 1449.9,
+        "recommend_pct": 97,
+        "reviews": 194,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": true,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "d9e04803-bb93-49a5-9dd7-dc91d20a75de",
+        "offer_id": "18374937197",
+        "seller": "tamaryna_pl",
+        "title": "Apple AirPods Pro 2 Wireless Earbuds, Bluetooth Headphones, Active Noise",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18374937197",
+        "price": 1634.99,
+        "recommend_pct": 96.4,
+        "reviews": 464,
+        "sold_recent": 0,
+        "badges": {
+          "smart": false,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "1f3f0fb8-9ebe-4ae7-a8ee-892f43a672a8",
+        "offer_id": "17968315750",
+        "seller": "buy-it_pl",
+        "title": "Apple AirPods Pro 2 gen MagSafe USB-C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17968315750",
+        "price": 1046.28,
+        "recommend_pct": 95.4,
+        "reviews": 480,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "9366d830-6ebe-43e7-bc23-02bb9d3558bb",
+        "offer_id": "17939411070",
+        "seller": "unknown",
+        "title": "Słuchawki bezprzewodowe Apple AirPods Pro 2 gen MagSafe USB-C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17939411070",
+        "price": 1199,
+        "recommend_pct": 94.9,
+        "reviews": 74,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": false,
+          "official_store": false
+        }
+      },
+      {
+        "id": "ed94e844-94c8-413c-a25c-333d51a899a0",
+        "offer_id": "18201652553",
+        "seller": "gosolo_pl",
+        "title": "ORYGINALNA PRAWA SŁUCHAWKA AIRPODS PRO 2 GENERACJI USCB C A3047 GRADE C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18201652553",
+        "price": 169,
+        "recommend_pct": 97.4,
+        "reviews": 37,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "3a387ee1-54f1-415f-8eef-f390438e5c5a",
+        "offer_id": "18357414213",
+        "seller": "gosolo_pl",
+        "title": "1/ ORYGINALNA PRAWA SŁUCHAWKA AIRPODS PRO 2 GENERACJI USCB C A3047 GRADE C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18357414213",
+        "price": 169,
+        "recommend_pct": 97.4,
+        "reviews": 37,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "fb1cab6d-c83e-4cca-9072-007fef25e271",
+        "offer_id": "18357417918",
+        "seller": "gosolo_pl",
+        "title": "2/ ORYGINALNA PRAWA SŁUCHAWKA AIRPODS PRO 2 GENERACJI USCB C A3047 GRADE C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18357417918",
+        "price": 169,
+        "recommend_pct": 97.4,
+        "reviews": 37,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "0151582e-68fb-4b48-a189-76e57cf3f9fc",
+        "offer_id": "18605664995",
+        "seller": "unknown",
+        "title": "ORYGINALNE ETUI ŁADUJĄCE APPLE AIRPODS PRO 2 GENERACJI A2699 A2698 A2700",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18605664995",
+        "price": 259,
+        "recommend_pct": 95.3,
+        "reviews": 102,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "5b53a126-c1de-4bcc-b3fc-b91f4e373e03",
+        "offer_id": "18548103645",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2 BW",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18548103645",
+        "price": 340,
+        "recommend_pct": 99.4,
+        "reviews": 328,
+        "sold_recent": 1,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "a6516f07-7d58-4329-ae3c-427e75ec20f8",
+        "offer_id": "18542155757",
+        "seller": "mielec-AMGGold",
+        "title": "AirPods Pro 2 (USB-C)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18542155757",
+        "price": 349,
+        "recommend_pct": 93.5,
+        "reviews": 59,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "9546beb6-ca7c-4ef1-9137-b506279ecbdd",
+        "offer_id": "18602298439",
+        "seller": "przybysza104",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18602298439",
+        "price": 350,
+        "recommend_pct": 95.5,
+        "reviews": 22,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "192f1d31-a8f9-4053-9d2e-a65abe4cdc03",
+        "offer_id": "17968593018",
+        "seller": "unknown",
+        "title": "etui ładujące z MagSafe - AirPods Pro (2. generacji) (USB-C)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17968593018",
+        "price": 359.2,
+        "recommend_pct": 94,
+        "reviews": 469,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "7941c49b-2463-4c62-aa22-ebe648cd10b2",
+        "offer_id": "18593426895",
+        "seller": "mielec-AMGGold",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C GWAR.",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18593426895",
+        "price": 379,
+        "recommend_pct": 93.5,
+        "reviews": 59,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "732c1e02-c673-486f-9e82-f1581192e005",
+        "offer_id": "18364748328",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI DOKANAŁOWE APPLE AIRPODS PRO 2 ANC BIAŁY ORYGINAŁ USB-C",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18364748328",
+        "price": 399,
+        "recommend_pct": 99.2,
+        "reviews": 383,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "97b16cdf-9abc-4868-ae54-f646011cb20e",
+        "offer_id": "18463824457",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI ŁADUJĄCE APPLE AIRPODS PRO (2 GENERACJA) ICLOUD",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18463824457",
+        "price": 399,
+        "recommend_pct": 98.4,
+        "reviews": 255,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "f90a5366-bed4-4061-9c19-ba45ecbcec30",
+        "offer_id": "17666741518",
+        "seller": "alleloombard487",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO A3048 7E93 GN1NX59F26JY POŁĄCZONE Z MAILEM",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17666741518",
+        "price": 400,
+        "recommend_pct": 93,
+        "reviews": 80,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "bfa96352-86e9-425b-bbf0-170399455691",
+        "offer_id": "18599931520",
+        "seller": "AlmarOutlet",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18599931520",
+        "price": 429,
+        "recommend_pct": 98.1,
+        "reviews": 789,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "8989b230-513b-43c0-a459-bb61631f25ee",
+        "offer_id": "18572451610",
+        "seller": "dealzone-mragowo",
+        "title": "Słuchawki Apple AirPods Pro 2 gen",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18572451610",
+        "price": 430,
+        "recommend_pct": 91.3,
+        "reviews": 21,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "922a7c05-00e7-4721-a460-4a9c56846f39",
+        "offer_id": "18592941185",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2 GEN.",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18592941185",
+        "price": 435.53,
+        "recommend_pct": 100,
+        "reviews": 158,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "4ef8c01f-f89d-4ed3-b1e4-48c0181a36cb",
+        "offer_id": "18491563495",
+        "seller": "unknown",
+        "title": "APPLE AIRPODS PRO 2. GENERACJI (USB-C)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18491563495",
+        "price": 449,
+        "recommend_pct": 96.9,
+        "reviews": 126,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "91771286-c1d2-42a0-a989-fdb9346b486b",
+        "offer_id": "18592972593",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2 GEN",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18592972593",
+        "price": 449,
+        "recommend_pct": 95,
+        "reviews": 491,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "3141ae53-42cb-467d-889d-d7de0cf5fa59",
+        "offer_id": "18503333155",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI AIRPODS PRO 2 GEN + PUDEŁKO + DOWÓD ZAKUPU",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18503333155",
+        "price": 450,
+        "recommend_pct": 96.6,
+        "reviews": 406,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "79cafe7b-8d0a-4642-af42-04c3ec893bf9",
+        "offer_id": "18466929734",
+        "seller": "alleloombard85",
+        "title": "SŁUCHAWKI BEZPRZEWODOWE APPLE AIRPODS PRO 2 ANC (ETUI Z USB-C)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18466929734",
+        "price": 449,
+        "recommend_pct": 100,
+        "reviews": 104,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "d8c398b4-0e53-491a-922d-e3ac42d64774",
+        "offer_id": "18521046300",
+        "seller": "alleloombard538",
+        "title": "SŁUCHAWKI AIRPODS PRO 2GEN.",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18521046300",
+        "price": 439,
+        "recommend_pct": 95,
+        "reviews": 19,
+        "sold_recent": 0,
+        "badges": {
+          "smart": false,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "68e9950c-220a-4d66-a6ac-c512b31bbf00",
+        "offer_id": "18570432712",
+        "seller": "AlmarOutlet",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18570432712",
+        "price": 469,
+        "recommend_pct": 98.1,
+        "reviews": 789,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "ef91fd04-9684-49d6-96c1-e850b73a7546",
+        "offer_id": "18478620969",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2ND SPRAWNE !!",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18478620969",
+        "price": 469,
+        "recommend_pct": 98.1,
+        "reviews": 428,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "0e9e65eb-faec-4dc7-b73d-f7b570df004e",
+        "offer_id": "18368101259",
+        "seller": "LOMBARDGM_BYTOW",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2 2GEN KOMPLET",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18368101259",
+        "price": 470,
+        "recommend_pct": 98,
+        "reviews": 148,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "799cb46e-d3ef-47c3-ba95-21735ed523f9",
+        "offer_id": "18288080940",
+        "seller": "alleloombard35",
+        "title": "SŁUCHAWKI AIRPODS PRO 2 (USB-C)",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18288080940",
+        "price": 479,
+        "recommend_pct": 95.1,
+        "reviews": 97,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "8fcb6b4c-a148-47c6-b535-a3a86e582af3",
+        "offer_id": "18342963311",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2 GEN",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18342963311",
+        "price": 499,
+        "recommend_pct": 98.3,
+        "reviews": 115,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "dc564d6e-56cc-4033-b701-d7ae3cb31316",
+        "offer_id": "18588473218",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2 GEN. MAGSAFE USB-C BT MTJV3ZM/A DOKANAŁOWE",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18588473218",
+        "price": 500,
+        "recommend_pct": 97.8,
+        "reviews": 484,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "3cc953f9-acc9-4583-a7b6-ab589c6e1334",
+        "offer_id": "18454205631",
+        "seller": "alleloombard659",
+        "title": "SŁUCHAWKI BT APPLE AIRPODS PRO 2",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18454205631",
+        "price": 499,
+        "recommend_pct": 97.8,
+        "reviews": 45,
+        "sold_recent": 0,
+        "badges": {
+          "smart": false,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "9546f152-61ea-44c9-b36c-7ccc98fd2ae0",
+        "offer_id": "18442397780",
+        "seller": "AlmarOutlet",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18442397780",
+        "price": 529,
+        "recommend_pct": 98.1,
+        "reviews": 789,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "4a099545-7ff3-4aab-bdb0-0c11a426ab50",
+        "offer_id": "18603419716",
+        "seller": "alleloombard95",
+        "title": "SŁUCHAWKI BLUETOOTH AIRPODS PRO 2 GEN A3047",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18603419716",
+        "price": 525,
+        "recommend_pct": 93.5,
+        "reviews": 144,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "b5ee0e67-3213-4f9e-ab48-da01712c3dc3",
+        "offer_id": "18313377348",
+        "seller": "unknown",
+        "title": "17/452B Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokan",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18313377348",
+        "price": 549,
+        "recommend_pct": 99.6,
+        "reviews": 5539,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": true,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "e3de37a5-b5cf-446a-8108-3edeb002edc8",
+        "offer_id": "18313342576",
+        "seller": "unknown",
+        "title": "17/451B Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokan",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18313342576",
+        "price": 549,
+        "recommend_pct": 99.6,
+        "reviews": 5539,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": true,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "cc5413e6-bf5e-4171-8262-529e85247e6d",
+        "offer_id": "18142134380",
+        "seller": "alleloombard961",
+        "title": "SŁUCHAWKI AIRPODS 2 PRO KOMPLET",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18142134380",
+        "price": 550,
+        "recommend_pct": 98.7,
+        "reviews": 158,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "95ebd995-15bd-43d8-8efc-56e552871df0",
+        "offer_id": "18238197342",
+        "seller": "alleloombard961",
+        "title": "SŁUCHAWKI AIRPODS PRO 2GEN KOMPLET",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18238197342",
+        "price": 550,
+        "recommend_pct": 98.7,
+        "reviews": 158,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "dc123cab-1d5f-4392-8f08-81aa15799f11",
+        "offer_id": "18570427869",
+        "seller": "AlmarOutlet",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18570427869",
+        "price": 559,
+        "recommend_pct": 98.1,
+        "reviews": 789,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "ef44c523-fb96-4cd9-9c47-e611ddd75e6c",
+        "offer_id": "18599938517",
+        "seller": "AlmarOutlet",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18599938517",
+        "price": 559,
+        "recommend_pct": 98.1,
+        "reviews": 789,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "4ad17f9e-17e9-40eb-9c26-f7fcb5e215c7",
+        "offer_id": "18527857202",
+        "seller": "alleloombard416",
+        "title": "SŁUCHAWKI BEZPRZEWODOWE DOKANAŁOWE APPLE AIRPODS PRO 2 GEN",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18527857202",
+        "price": 575,
+        "recommend_pct": 91.5,
+        "reviews": 86,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "c7f8aa53-75e0-4a37-bc89-3c4356e2cf39",
+        "offer_id": "17568041141",
+        "seller": "unknown",
+        "title": "19558i Słuchawki bezprzewodowe dokanałowe Apple AirPods 2. generacji",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=17568041141",
+        "price": 579,
+        "recommend_pct": 98.9,
+        "reviews": 874,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "c24df1da-fdd9-464b-8a9c-fabfd13cf90d",
+        "offer_id": "18601713660",
+        "seller": "unknown",
+        "title": "Słuchawki Apple AirPods Pro (2. generacji) z etui ładującym MagSafe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18601713660",
+        "price": 579,
+        "recommend_pct": 99.2,
+        "reviews": 129,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "e230fdfb-2bc7-4f7c-bd9e-e4ae3278b472",
+        "offer_id": "18572627831",
+        "seller": "unknown",
+        "title": "Słuchawki Apple AirPods Pro 2 bezprzewodowe aktywna redukcja hałasu",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18572627831",
+        "price": 580,
+        "recommend_pct": 100,
+        "reviews": 307,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": true,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "1ddb5725-d01f-4ceb-89fc-9ce234b9d570",
+        "offer_id": "18521424708",
+        "seller": "unknown",
+        "title": "AIRPODS PRO 2GEN.",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18521424708",
+        "price": 580,
+        "recommend_pct": 97.2,
+        "reviews": 283,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "f9ca7fd2-e9eb-45a9-aba8-a22645dbea5a",
+        "offer_id": "18285053109",
+        "seller": "unknown",
+        "title": "SŁUCHAWKI APPLE AIRPODS PRO 2. GEN USB-C MAGSAFE",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18285053109",
+        "price": 598,
+        "recommend_pct": 98.5,
+        "reviews": 260,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": true,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      },
+      {
+        "id": "bdafb689-f223-4e0e-b844-b0395c344ab0",
+        "offer_id": "18503395796",
+        "seller": "e-kastel",
+        "title": "Słuchawki Apple AirPods Pro 2 gen. MagSafe USB-C BT MTJV3ZM/A Dokanałowe",
+        "offer_url": "https://allegro.pl/produkt/sluchawki-apple-airpods-pro-2-gen-magsafe-usb-c-bt-mtjv3zm-a-dokanalowe-58fbc6df-2280-42aa-8f87-4c63dbda1aac?offerId=18503395796",
+        "price": 599,
+        "recommend_pct": 91.8,
+        "reviews": 181,
+        "sold_recent": 0,
+        "badges": {
+          "smart": true,
+          "super_seller": false,
+          "top_offer": false,
+          "contains_promo": false,
+          "sponsored": false,
+          "firma": true,
+          "official_store": false
+        }
+      }
+    ]
+  }
+]

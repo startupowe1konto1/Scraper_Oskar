@@ -1,0 +1,56 @@
+{
+  "name": "shoppalyzer-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shoppalyzer backend — Next.js API + scrape workers + analysis engine",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "worker": "tsx --env-file .env.local src/workers/scrape-worker.ts",
+    "migrate": "psql $DATABASE_URL -f supabase/migrations/0001_initial.sql"
+  },
+  "dependencies": {
+    "@radix-ui/react-label": "^2.1.8",
+    "@radix-ui/react-progress": "^1.1.8",
+    "@radix-ui/react-separator": "^1.1.8",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@supabase/ssr": "^0.10.3",
+    "@supabase/supabase-js": "^2.45.0",
+    "cheerio": "^1.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.4.2",
+    "geist": "^1.7.0",
+    "lucide-react": "^1.16.0",
+    "next": "^14.2.35",
+    "pdf-lib": "^1.17.1",
+    "puppeteer": "^23.0.0",
+    "react": "18.3.0",
+    "react-dom": "18.3.0",
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "tsx": "^4.22.0",
+    "xlsx": "^0.18.5",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitest/ui": "^4.1.6",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.35",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.5.0",
+    "vitest": "^4.1.6"
+  }
+}

@@ -39,7 +39,7 @@ async function main() {
       console.log(`> Sprzedawca: ${mainOffer.seller}, Cena: ${mainOffer.price} PLN`);
       
       const aggUrl = extractAggregatorUrl(html);
-      let competitiveOffers = [];
+      let competitiveOffers: any[] = [];
       
       if (aggUrl) {
         console.log(`> Znaleziono agregator ofert: ${aggUrl}`);
@@ -81,7 +81,7 @@ async function main() {
       'Liczba sztuk': main.stock,
       'Cena PL': main.price,
       'Tytuł': main.title,
-      'Czas wysyłki': main.delivery,
+      'Czas wysyłki': main.shipping_time || main.delivery_date,
       'Stan': main.condition,
       'Smart': main.smart ? 'Tak' : 'Nie',
       'Ilość ocen': main.reviews,

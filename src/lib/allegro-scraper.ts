@@ -136,7 +136,7 @@ export function parseAllegroSingleOffer(html: string, url: string): SingleOfferD
   
   // Stock
   const stockMatch = html.match(/z (\d+) sztuk/i) || html.match(/Dostępn[ae] (\d+) sztuk/i) || html.match(/ostatnia sztuka/i);
-  result.stock = stockMatch ? (stockMatch[1] ? parseInt(stockMatch[1]) : 1) : null;
+  result.stock = stockMatch ? (stockMatch[1] ? parseInt(stockMatch[1]) : 1) : undefined;
   
   // Sold Recent
   const soldMatch = html.match(/(\d+)\s+osob[ay]?\s+kupi[łl][yo]\s+tę ofertę/i) || html.match(/(\d+)\s+osob[ay]?\s+kupi[łl][yo]/i);
@@ -192,7 +192,7 @@ export function parseAllegroSingleOffer(html: string, url: string): SingleOfferD
   result.reviews = reviewMatch ? parseInt(reviewMatch[1].replace(/\s/g, '')) : 0;
   
   const ratingMatch = html.match(/Średnia ocen ([\d,]+) na 5/i) || html.match(/Poleca\s*([\d,]+)%/i);
-  result.rating = ratingMatch ? parseFloat(ratingMatch[1].replace(',', '.')) : null;
+  result.rating = ratingMatch ? parseFloat(ratingMatch[1].replace(',', '.')) : undefined;
   
   const cats = $('[data-role="breadcrumb-item"]').map((i, el) => $(el).text().trim()).get();
   result.mainCategory = cats.length > 1 ? cats[1] : 'Brak kategorii';

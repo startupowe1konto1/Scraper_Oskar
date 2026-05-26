@@ -1,20 +1,4 @@
-/**
- * Firecrawl API key pool — TypeScript port of shoppalyzer-tools/firecrawl-pool.js
- * adapted for production:
- *   - Keys come from the FIRECRAWL_API_KEYS env var (comma-separated)
- *   - Per-key credit usage is persisted in Supabase (firecrawl_key_usage table)
- *     so it survives Fly.io VM restarts.
- *
- * Usage in the worker:
- *   const pool = new FirecrawlPool({
- *     db: serviceClient,
- *     keys: FirecrawlPool.parseEnvKeys(process.env.FIRECRAWL_API_KEYS ?? ''),
- *   });
- *   await pool.loadUsage();
- *   const result = await pool.scrape({ url, formats: ['rawHtml'], proxy: 'stealth' });
- */
 import https from 'https';
-import type { SupabaseClient } from '@supabase/supabase-js';
 
 const FIRECRAWL_API_HOST = 'api.firecrawl.dev';
 const DEFAULT_MONTHLY_LIMIT = 1000;
@@ -28,15 +12,6 @@ interface KeyState extends PoolKey {
   credits_used: number;
   monthly_limit: number;
   exhausted: boolean;
-  last_used_at?: string;
-  exhausted_at?: string;
-}
-
-interface KeyUsageRow {
-  key_name: string;
-  credits_used?: number;
-  monthly_limit?: number;
-  exhausted?: boolean;
   last_used_at?: string;
   exhausted_at?: string;
 }
@@ -58,12 +33,10 @@ export interface ScrapeResult {
 }
 
 export class FirecrawlPool {
-  private db: SupabaseClient | null;
   private keys: KeyState[];
   private loaded = false;
 
-  constructor(args: { db?: SupabaseClient | null; keys: PoolKey[] }) {
-    this.db = args.db ?? null;
+  constructor(args: { keys: PoolKey[] }) {
     this.keys = args.keys.map(k => ({
       ...k,
       credits_used: 0,
@@ -72,7 +45,6 @@ export class FirecrawlPool {
     }));
   }
 
-  /** Parse comma-separated env var into PoolKey[]. Supports "name:value" form. */
   static parseEnvKeys(raw: string): PoolKey[] {
     return raw
       .split(',')
@@ -87,27 +59,11 @@ export class FirecrawlPool {
       });
   }
 
-  /** Load persisted usage from Supabase. Call once at startup. */
   async loadUsage(): Promise<void> {
-    if (!this.db) {
-      this.loaded = true;
-      return;
-    }
-    const { data, error } = await this.db.from('firecrawl_key_usage').select('*');
-    if (error) throw new Error(`firecrawl_key_usage load failed: ${error.message}`);
-    for (const row of (data ?? []) as KeyUsageRow[]) {
-      const key = this.keys.find(k => k.name === row.key_name);
-      if (!key) continue;
-      key.credits_used = row.credits_used ?? 0;
-      key.monthly_limit = row.monthly_limit ?? DEFAULT_MONTHLY_LIMIT;
-      key.exhausted = row.exhausted ?? false;
-      key.last_used_at = row.last_used_at;
-      key.exhausted_at = row.exhausted_at;
-    }
+    // Supabase has been removed. Credit usage is tracked purely in-memory.
     this.loaded = true;
   }
 
-  /** Pick the key with the most remaining credits. Returns null if all exhausted. */
   pickKey(): KeyState | null {
     const active = this.keys.filter(k => !k.exhausted);
     if (active.length === 0) return null;
@@ -115,7 +71,6 @@ export class FirecrawlPool {
     return active[0];
   }
 
-  /** Scrape with automatic key rotation on 402/429. */
   async scrape(options: ScrapeOptions): Promise<ScrapeResult> {
     if (!this.loaded) await this.loadUsage();
 
@@ -132,7 +87,6 @@ export class FirecrawlPool {
         const used = (result.metadata?.creditsUsed ?? 0) || this.estimateCredits(options);
         key.credits_used += used;
         key.last_used_at = new Date().toISOString();
-        await this.persistKey(key);
         return result;
       } catch (err) {
         const e = err as Error & { status?: number };
@@ -142,7 +96,6 @@ export class FirecrawlPool {
           );
           key.exhausted = true;
           key.exhausted_at = new Date().toISOString();
-          await this.persistKey(key);
           lastErr = err;
           continue;
         }
@@ -157,24 +110,6 @@ export class FirecrawlPool {
     return opts.proxy === 'stealth' ? 10 : 1;
   }
 
-  private async persistKey(key: KeyState): Promise<void> {
-    if (!this.db) return;
-    const { error } = await this.db.from('firecrawl_key_usage').upsert(
-      {
-        key_name: key.name,
-        credits_used: key.credits_used,
-        monthly_limit: key.monthly_limit,
-        exhausted: key.exhausted,
-        last_used_at: key.last_used_at,
-        exhausted_at: key.exhausted_at,
-        updated_at: new Date().toISOString(),
-      },
-      { onConflict: 'key_name' },
-    );
-    if (error) console.warn(`[firecrawl-pool] persist failed for ${key.name}: ${error.message}`);
-  }
-
-  // exposed protected for tests to stub
   protected callFirecrawl(apiKey: string, options: ScrapeOptions): Promise<ScrapeResult> {
     return new Promise((resolve, reject) => {
       const body = JSON.stringify(options);

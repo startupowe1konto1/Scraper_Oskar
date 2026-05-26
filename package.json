@@ -13,16 +13,13 @@
     "lint": "next lint",
     "test": "vitest run",
     "test:watch": "vitest",
-    "worker": "tsx --env-file .env.local src/workers/scrape-worker.ts",
-    "migrate": "psql $DATABASE_URL -f supabase/migrations/0001_initial.sql"
+    "worker": "tsx --env-file .env.local src/workers/scrape-worker.ts"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.8",
     "@radix-ui/react-progress": "^1.1.8",
     "@radix-ui/react-separator": "^1.1.8",
     "@radix-ui/react-slot": "^1.2.4",
-    "@supabase/ssr": "^0.10.3",
-    "@supabase/supabase-js": "^2.45.0",
     "cheerio": "^1.2.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",

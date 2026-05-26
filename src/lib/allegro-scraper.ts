@@ -17,7 +17,7 @@
 import type { Offer } from '@/types/api';
 import { randomUUID } from 'crypto';
 import { FirecrawlPool } from './firecrawl-pool';
-import { createServiceClient } from './db';
+
 import * as cheerio from 'cheerio';
 
 export interface SingleOfferData {
@@ -48,7 +48,6 @@ async function getPool(): Promise<FirecrawlPool> {
     const raw = process.env.FIRECRAWL_API_KEYS ?? '';
     if (!raw) throw new Error('FIRECRAWL_API_KEYS env var is required');
     _pool = new FirecrawlPool({
-      db: process.env.LOCAL_SCRAPE === 'true' ? null : createServiceClient(),
       keys: FirecrawlPool.parseEnvKeys(raw),
     });
     await _pool.loadUsage();

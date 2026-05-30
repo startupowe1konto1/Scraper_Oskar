@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { scrapeAllegroPage, extractAggregatorUrl, parseAllegroOffers, parseAllegroSingleOffer, SingleOfferData } from '@/lib/allegro-scraper';
+import { scrapeAllegroPage, extractAggregatorUrl, extractSidebarCompetitorSummary, parseAllegroOffers, parseAllegroSingleOffer, SingleOfferData } from '@/lib/allegro-scraper';
 
 // Ustawienie flagi dla getPool, żeby pominęło bazę danych.
 process.env.LOCAL_SCRAPE = 'true';
@@ -18,14 +18,24 @@ export async function POST(request: Request) {
     const html = await scrapeAllegroPage(url);
     const mainOffer = parseAllegroSingleOffer(html, url);
     
-    // 2. Fetch Aggregator URL if exists
+    // 2. Extract sidebar summary (from "Ten produkt od innych sprzedających" panel)
+    const sidebarSummary = extractSidebarCompetitorSummary(html);
+    if (sidebarSummary) {
+      console.log(`[local-scrape API] Panel boczny: znaleziono ${sidebarSummary.totalOffers ?? '?'} ofert konkurencji`);
+    } else {
+      console.log(`[local-scrape API] Panel boczny "Ten produkt od innych sprzedających" nie znaleziony — produkt może nie być w katalogu`);
+    }
+    
+    // 3. Extract Aggregator URL (uses sidebar panel link, canonical URL, or productId)
     const aggUrl = extractAggregatorUrl(html);
     const competitiveOffers: SingleOfferData[] = [];
     
     if (aggUrl) {
-      console.log(`[local-scrape API] Znaleziono agregator ofert: ${aggUrl}`);
+      console.log(`[local-scrape API] URL agregatora ofert: ${aggUrl}`);
       const aggHtml = await scrapeAllegroPage(aggUrl);
       const allOffers = parseAllegroOffers(aggHtml);
+      
+      console.log(`[local-scrape API] Znaleziono ${allOffers.length} ofert na stronie agregatora`);
       
       // Calculate average price
       const validPrices = allOffers.map(o => o.price).filter(p => p > 0);
@@ -45,7 +55,7 @@ export async function POST(request: Request) {
       
       // Top 5 gets deep scraping
       const deepOffersCount = Math.min(topOffers.length, 5);
-      console.log(`[local-scrape API] Przetwarzam ${deepOffersCount} najlepszych ofert konkurencji ze szczegółami (Głębokie Scrapowanie), a pozostałe płytko...`);
+      console.log(`[local-scrape API] Przetwarzam ${deepOffersCount} najlepszych ofert konkurencji ze szczegółami (Głębokie Scrapowanie), a pozostałe ${Math.max(0, topOffers.length - 5)} płytko...`);
       
       for (let i = 0; i < topOffers.length; i++) {
         const comp = topOffers[i];
@@ -77,7 +87,7 @@ export async function POST(request: Request) {
             shipping_time: 'Brak informacji (płytki skan)',
             warranty: 'Brak informacji (płytki skan)',
             super_seller: comp.badges?.super_seller || false,
-            super_price: comp.badges?.super_price || false, // Można dodać sprawdzanie w parserze, ale załóżmy false
+            super_price: comp.badges?.super_price || false,
             reviews: comp.reviews,
             rating: comp.recommend_pct, // W parserze to było recommend_pct, frontend czyta rating
             mainCategory: mainOffer.mainCategory,
@@ -85,13 +95,21 @@ export async function POST(request: Request) {
           });
         }
       }
+    } else {
+      console.log(`[local-scrape API] Brak linku do agregatora — ten produkt nie posiada katalogu ofert konkurencji`);
     }
 
     return NextResponse.json({
       success: true,
       data: {
         mainOffer,
-        competitiveOffers
+        competitiveOffers,
+        meta: {
+          aggregatorUrl: aggUrl,
+          totalCompetitorOffers: sidebarSummary?.totalOffers,
+          deepScrapedCount: Math.min(competitiveOffers.length, 5),
+          shallowScrapedCount: Math.max(0, competitiveOffers.length - 5),
+        }
       }
     });
 

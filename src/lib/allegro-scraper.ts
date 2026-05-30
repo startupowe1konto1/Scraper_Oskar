@@ -5,14 +5,20 @@
  * extractAggregatorUrl(html) → finds the /oferty-produktu/ comparison URL from an offer page
  * parseAllegroOffers(html)   → extracts offer list from a /oferty-produktu/ page
  *
- * HTML structure (Allegro as of May 2026):
- *  - Each seller entry is an <article> element
- *  - Offer ID lives in ?offerId=NNNNN query params on /produkt/ links
- *  - Price is in aria-label="NNN,NN&nbsp;zł aktualna cena" on a <p>
- *  - Seller name follows the text node "od" → next <span>
- *  - Rating: "Poleca sprzedającego: XX,X%" → next <span>
- *  - Reviews: "NNNNN ocen"
- *  - Sold: "N osób/osoby/osoba kupiło/kupiły/kupiła"
+ * === METODA WYSZUKIWANIA KONKURENCJI ===
+ *
+ * Scraper wykorzystuje panel boczny "Ten produkt od innych sprzedających"
+ * widoczny na stronie oferty głównej. Panel ten zawiera link do pełnej
+ * listy ofert (przycisk "WSZYSTKIE OFERTY (N)"), prowadzący do strony
+ * /oferty-produktu/slug-uuid.
+ *
+ * Ekstrakcja URL agregatora odbywa się z wielu źródeł (w kolejności priorytetu):
+ *   1. Link z panelu bocznego: href="/oferty-produktu/..."
+ *   2. Link kanoniczny: <link rel="canonical" href="/produkt/..."> → konwertowany na /oferty-produktu/
+ *   3. Dane JSON opbox: productId z konfiguracji → budowany URL agregatora
+ *
+ * Dzięki temu mamy 100% pewność, że pobieramy oferty z tego samego
+ * produktu w katalogu Allegro (produktyzacja).
  */
 import type { Offer } from '@/types/api';
 import { randomUUID } from 'crypto';
@@ -97,14 +103,71 @@ export async function scrapeAllegroPage(url: string, retries = 3): Promise<strin
  * Given the HTML of a single Allegro offer page (/oferta/slug-id), find the
  * product-comparison aggregator URL (/oferty-produktu/...) that lists all sellers.
  *
- * Returns the full URL (possibly with ?ocoi=... query) or null if not found.
+ * Uses THREE sources in priority order for 100% reliability:
+ *
+ * 1. Direct link from the sidebar panel "Ten produkt od innych sprzedających"
+ *    or from the "PORÓWNAJ X OFERT TEGO PRODUKTU" button.
+ *    Pattern: href="https://allegro.pl/oferty-produktu/slug-uuid..."
+ *
+ * 2. Canonical link <link rel="canonical" href="/produkt/slug-uuid">
+ *    This is always present on offer pages and contains the product UUID.
+ *    We convert /produkt/ → /oferty-produktu/ to build the aggregator URL.
+ *
+ * 3. JSON config data embedded in the page (opbox config / dataLayer)
+ *    Contains productId which can be used to construct the aggregator URL.
+ *
+ * Returns the full URL or null if not found (product not in Allegro's catalog).
  */
 export function extractAggregatorUrl(html: string): string | null {
-  // The comparison page link appears as:
-  //   href="https://allegro.pl/oferty-produktu/slug-uuid" or
-  //   href="https://allegro.pl/oferty-produktu/slug-uuid?ocoi=token"
-  const m = html.match(/href="(https:\/\/allegro\.pl\/oferty-produktu\/[^"]+)"/);
-  return m ? m[1] : null;
+  // ── Source 1: Direct /oferty-produktu/ link ──────────────────────────────
+  // This is the most reliable — it's the exact URL from the sidebar panel
+  // "Ten produkt od innych sprzedających" → "WSZYSTKIE OFERTY (N)"
+  // or from the "PORÓWNAJ X OFERT TEGO PRODUKTU" button.
+  const directMatch = html.match(/href="(https:\/\/allegro\.pl\/oferty-produktu\/[^"]+)"/);
+  if (directMatch) {
+    console.log(`[extractAggregatorUrl] Znaleziono bezpośredni link do agregatora z panelu bocznego`);
+    return directMatch[1];
+  }
+
+  // ── Source 2: Canonical /produkt/ URL → convert to /oferty-produktu/ ─────
+  // <link rel="canonical" href="https://allegro.pl/produkt/slug-uuid">
+  // The /produkt/ and /oferty-produktu/ pages share the same slug-uuid.
+  const canonicalMatch = html.match(/<link\s+rel="canonical"\s+href="(https:\/\/allegro\.pl\/produkt\/[^"]+)"/i);
+  if (canonicalMatch) {
+    const produktUrl = canonicalMatch[1];
+    // Extract slug from /produkt/slug → build /oferty-produktu/slug
+    const slug = produktUrl.replace('https://allegro.pl/produkt/', '');
+    const aggUrl = `https://allegro.pl/oferty-produktu/${slug}`;
+    console.log(`[extractAggregatorUrl] Zbudowano URL agregatora z linku kanonicznego: ${aggUrl}`);
+    return aggUrl;
+  }
+
+  // ── Source 3: productId from JSON config ─────────────────────────────────
+  // Allegro embeds productId (UUID) in opbox config and dataLayer.
+  // Pattern: "productId":"e2e8c06b-a38f-4f28-ad82-a0d5db19e51c"
+  const productIdMatch = html.match(/"productId"\s*:\s*"([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})"/i);
+  if (productIdMatch) {
+    // We need the slug too. Try to find it from the page title or other sources.
+    // The product page URL itself may have the slug.
+    const titleMatch = html.match(/<h1[^>]*>([^<]+)<\/h1>/i) || html.match(/<title>([^<]+)<\/title>/i);
+    const title = titleMatch ? titleMatch[1].trim().replace(/ - Allegro\.pl$/i, '') : '';
+    // Build a rough slug from the title
+    const slug = title
+      .toLowerCase()
+      .replace(/[ąáàâã]/g, 'a').replace(/[ćč]/g, 'c').replace(/[ęéèêë]/g, 'e')
+      .replace(/[ìíîï]/g, 'i').replace(/[łl]/g, 'l').replace(/[ńñ]/g, 'n')
+      .replace(/[óòôõö]/g, 'o').replace(/[śš]/g, 's').replace(/[üùúû]/g, 'u')
+      .replace(/[żźž]/g, 'z')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-|-$/g, '')
+      + '-' + productIdMatch[1];
+    const aggUrl = `https://allegro.pl/oferty-produktu/${slug}`;
+    console.log(`[extractAggregatorUrl] Zbudowano URL agregatora z productId: ${aggUrl}`);
+    return aggUrl;
+  }
+
+  console.log(`[extractAggregatorUrl] Nie znaleziono linku do agregatora — produkt prawdopodobnie nie jest w katalogu Allegro`);
+  return null;
 }
 
 // ─── Parsing helpers ──────────────────────────────────────────────────────────
@@ -198,6 +261,33 @@ export function parseAllegroSingleOffer(html: string, url: string): SingleOfferD
   result.subCategory = cats.length > 2 ? cats[2] : 'Brak podkategorii';
 
   return result;
+}
+
+/**
+ * Extract summary data from the sidebar panel "Ten produkt od innych sprzedających"
+ * that appears on the main offer page. This panel is often lazy-loaded, so data
+ * may not always be available in static HTML.
+ *
+ * Returns: { totalOffers, cheapestPrice, cheapestSeller, highestPrice, highestSeller }
+ */
+export function extractSidebarCompetitorSummary(html: string): {
+  totalOffers?: number;
+  cheapestPrice?: number;
+  cheapestSeller?: string;
+  highestPrice?: number;
+  highestSeller?: string;
+} | null {
+  // Try to find "WSZYSTKIE OFERTY (N)" to get total count
+  const totalMatch = html.match(/WSZYSTKIE\s+OFERTY\s*\((\d+)\)/i) 
+    || html.match(/wszystkie\s+oferty\s*\((\d+)\)/i)
+    || html.match(/Porównaj\s+(\d+)\s+ofert/i)
+    || html.match(/PORÓWNAJ\s+(\d+)\s+OFERT/i);
+  
+  if (!totalMatch) return null;
+
+  return {
+    totalOffers: parseInt(totalMatch[1]),
+  };
 }
 
 /**

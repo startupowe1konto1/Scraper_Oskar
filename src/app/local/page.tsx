@@ -10,12 +10,18 @@ interface ResultItem {
   competitiveOffers: any[];
 }
 
+interface ScrapeError {
+  url: string;
+  error: string;
+}
+
 export default function LocalScraperPage() {
   const [file, setFile] = useState<File | null>(null);
   const [urls, setUrls] = useState<string[]>([]);
   const [progress, setProgress] = useState({ current: 0, total: 0 });
   const [status, setStatus] = useState<'idle' | 'parsing' | 'scraping' | 'completed' | 'error'>('idle');
   const [results, setResults] = useState<ResultItem[]>([]);
+  const [scrapeErrors, setScrapeErrors] = useState<ScrapeError[]>([]);
   const [errorMsg, setErrorMsg] = useState('');
   
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -60,6 +66,7 @@ export default function LocalScraperPage() {
     
     setStatus('scraping');
     const newResults: ResultItem[] = [];
+    const newErrors: ScrapeError[] = [];
     
     for (let i = 0; i < urls.length; i++) {
       try {
@@ -69,15 +76,22 @@ export default function LocalScraperPage() {
           body: JSON.stringify({ url: urls[i] })
         });
         
-        if (res.ok) {
-          const json = await res.json();
-          if (json.success && json.data) {
-            newResults.push(json.data);
-            setResults([...newResults]);
-          }
+        const json = await res.json();
+        
+        if (res.ok && json.success && json.data) {
+          newResults.push(json.data);
+          setResults([...newResults]);
+        } else {
+          const errMsg = json.error || `HTTP ${res.status}: ${res.statusText}`;
+          console.error(`Błąd scrapowania dla ${urls[i]}:`, errMsg);
+          newErrors.push({ url: urls[i], error: errMsg });
+          setScrapeErrors([...newErrors]);
         }
-      } catch (err) {
-        console.error(`Błąd scrapowania dla ${urls[i]}:`, err);
+      } catch (err: any) {
+        const errMsg = err.message || 'Nieznany błąd sieci';
+        console.error(`Błąd scrapowania dla ${urls[i]}:`, errMsg);
+        newErrors.push({ url: urls[i], error: errMsg });
+        setScrapeErrors([...newErrors]);
       }
       setProgress({ current: i + 1, total: urls.length });
     }
@@ -278,6 +292,22 @@ export default function LocalScraperPage() {
                 </div>
               ))}
             </div>
+
+            {/* Błędy scrapowania */}
+            {scrapeErrors.length > 0 && (
+              <div className="mt-6 space-y-3">
+                <h4 className="text-sm font-medium text-red-400 flex items-center gap-2">
+                  <AlertCircle className="w-4 h-4" />
+                  Błędy podczas scrapowania ({scrapeErrors.length})
+                </h4>
+                {scrapeErrors.map((err, i) => (
+                  <div key={i} className="rounded-xl border border-red-500/20 bg-red-500/5 p-3 text-sm">
+                    <p className="text-red-300 font-medium truncate">{err.url}</p>
+                    <p className="text-red-400/70 mt-1">{err.error}</p>
+                  </div>
+                ))}
+              </div>
+            )}
             
           </div>
         )}

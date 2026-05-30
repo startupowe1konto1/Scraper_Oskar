@@ -77,7 +77,7 @@ export async function POST(request: Request) {
             url: comp.offer_url,
             title: comp.title,
             price: comp.price,
-            price_with_delivery: undefined, // Wymaga głębokiego skanowania
+            price_with_delivery: comp.total_with_delivery,
             condition: mainOffer.condition, // Zazwyczaj stan ten sam
             stock: undefined,
             sold_recent: comp.sold_recent,

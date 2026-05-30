@@ -65,24 +65,29 @@ async function getPool(): Promise<FirecrawlPool> {
  * Scrape an Allegro page via Firecrawl. Returns raw HTML.
  * Uses proxy:stealth which successfully bypasses Allegro's bot detection on valid URLs.
  */
-export async function scrapeAllegroPage(url: string, retries = 3): Promise<string> {
+export async function scrapeAllegroPage(url: string, retries = 4): Promise<string> {
   const pool = await getPool();
   
   for (let i = 0; i < retries; i++) {
     try {
+      const useMobile = i % 2 !== 0; // Alternate mobile/desktop
       const result = await pool.scrape({
         url,
         formats: ['rawHtml'],
-        proxy: 'stealth',
-        waitFor: 5000,
+        // Firecrawl v1 API headers for trying to bypass bot detection
+        headers: {
+          'Accept-Language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7',
+        },
+        mobile: useMobile,
+        waitFor: 3000,
       });
       
       const html = (result.rawHtml ?? result.html ?? '') as string;
       
       if (html.includes('Captcha') && html.includes('reCAPTCHA') && html.includes('allegro.pl')) {
-        console.warn(`[scrapeAllegroPage] CAPTCHA detected for ${url}. Retrying (${i + 1}/${retries})...`);
+        console.warn(`[scrapeAllegroPage] CAPTCHA detected for ${url}. (mobile=${useMobile}) Retrying (${i + 1}/${retries})...`);
         // Wait a bit before retrying
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        await new Promise(resolve => setTimeout(resolve, 3000));
         continue;
       }
       
@@ -301,7 +306,7 @@ function extractSoldCount(text: string): number {
   // Normalize thousands separator first: "1 000" → "1000"
   const normalized = text.replace(/(\d) (\d)/g, '$1$2');
   const m =
-    normalized.match(/(\d+)\s+osob[ay]?\s+kupi/i) ??
+    normalized.match(/(\d+)\s+osob[a-zżółćęśąź]*\s+kupi/i) ??
     normalized.match(/(\d+)\s+osoba\s+kupi[łl]a/i) ??
     normalized.match(/(\d+)\s+osoby\s+kupi[łl]y/i) ??
     normalized.match(/(\d+)\s+osób\s+kupi[łl]o/i);
@@ -357,6 +362,13 @@ export function parseAllegroOffers(html: string): Offer[] {
     const price = priceMatch
       ? parseFloat(`${priceMatch[1]}.${priceMatch[2]}`)
       : 0;
+      
+    // ── Price with Delivery ───────────────────────────────────────────────────
+    // "75,28 zł z dostawą"
+    const totalDeliveryMatch = body.match(/(\d+)[.,](\d{2})\s*z[łl]\s+z\s+dostaw[aą]/i);
+    const total_with_delivery = totalDeliveryMatch
+      ? parseFloat(`${totalDeliveryMatch[1]}.${totalDeliveryMatch[2]}`)
+      : undefined;
 
     // ── Recommend percent ─────────────────────────────────────────────────────
     // "Poleca sprzedającego: <span>97,3%</span>"

@@ -22,7 +22,7 @@
  */
 import type { Offer } from '@/types/api';
 import { randomUUID } from 'crypto';
-import { FirecrawlPool } from './firecrawl-pool';
+import { ScrapeGraphPool, PoolKey } from './scrapegraph-pool';
 
 import * as cheerio from 'cheerio';
 
@@ -47,45 +47,49 @@ export interface SingleOfferData {
   subCategory?: string;
 }
 
-let _pool: FirecrawlPool | null = null;
+const SGAI_KEYS_ENV = process.env.SCRAPEGRAPH_API_KEYS ?? '';
+let sgaiPool: ScrapeGraphPool | null = null;
 
-async function getPool(): Promise<FirecrawlPool> {
-  if (!_pool) {
-    const raw = process.env.FIRECRAWL_API_KEYS ?? '';
-    if (!raw) throw new Error('FIRECRAWL_API_KEYS env var is required');
-    _pool = new FirecrawlPool({
-      keys: FirecrawlPool.parseEnvKeys(raw),
-    });
-    await _pool.loadUsage();
+export function getPool(): ScrapeGraphPool {
+  if (!sgaiPool) {
+    if (!SGAI_KEYS_ENV) {
+      console.warn('[allegro-scraper] No SCRAPEGRAPH_API_KEYS defined in env. Scrapes may fail.');
+    }
+    const keys: PoolKey[] = ScrapeGraphPool.parseEnvKeys(SGAI_KEYS_ENV);
+    sgaiPool = new ScrapeGraphPool({ keys });
   }
-  return _pool;
+  return sgaiPool;
 }
 
 /**
  * Scrape an Allegro page via Firecrawl. Returns raw HTML.
  * Uses proxy:stealth which successfully bypasses Allegro's bot detection on valid URLs.
  */
-export async function scrapeAllegroPage(url: string, retries = 4): Promise<string> {
-  const pool = await getPool();
-  
-  for (let i = 0; i < retries; i++) {
+export async function scrapeAllegroPage(url: string, mobile = false): Promise<string> {
+  const pool = getPool();
+  let attempt = 0;
+  const maxRetries = 4; // Zwiększone próby w razie CAPTCHA
+
+  while (attempt < maxRetries) {
+    attempt++;
     try {
-      const useMobile = i % 2 !== 0; // Alternate mobile/desktop
-      const result = await pool.scrape({
+      const response = await pool.scrape({
         url,
-        formats: ['rawHtml'],
-        // Firecrawl v1 API headers for trying to bypass bot detection
+        // Używamy ScrapeGraphAI bez renderowania JS dla szybkości lub auto dla omijania blokad.
+        // Konfigurację anty-bot możemy przekazać (SDK może mieć 'proxy' lub inne opcje):
+        proxy: 'advanced', // Przykładowo dla ScrapeGraphAI proxy/stealth
         headers: {
           'Accept-Language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7',
-        },
-        mobile: useMobile,
-        waitFor: 3000,
+          'User-Agent': mobile 
+             ? 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1'
+             : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        }
       });
-      
-      const html = (result.rawHtml ?? result.html ?? '') as string;
+
+      const html = response.html ?? '';
       
       if (html.includes('Captcha') && html.includes('reCAPTCHA') && html.includes('allegro.pl')) {
-        console.warn(`[scrapeAllegroPage] CAPTCHA detected for ${url}. (mobile=${useMobile}) Retrying (${i + 1}/${retries})...`);
+        console.warn(`[scrapeAllegroPage] CAPTCHA detected for ${url}. Retrying (${attempt}/${maxRetries})...`);
         // Wait a bit before retrying
         await new Promise(resolve => setTimeout(resolve, 3000));
         continue;
@@ -93,8 +97,8 @@ export async function scrapeAllegroPage(url: string, retries = 4): Promise<strin
       
       return html;
     } catch (e: any) {
-      if (i === retries - 1) throw e;
-      console.warn(`[scrapeAllegroPage] Error: ${e.message}. Retrying (${i + 1}/${retries})...`);
+      if (attempt >= maxRetries) throw e;
+      console.warn(`[scrapeAllegroPage] Error: ${e.message}. Retrying (${attempt}/${maxRetries})...`);
       await new Promise(resolve => setTimeout(resolve, 2000));
     }
   }
